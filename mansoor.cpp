@@ -21,6 +21,13 @@ void input(){
       cout<<"======================="<<endl;//membuat tampilan susunan data element array
       cout<<"masukan elment array"<<endl;
       cout<<"======================="<<endl;
+    
     }
+    for (int  i = 0; i < n; i++)
+    {
+        cout<<"data ke_"<<(i+1)<<":";
+        cin>>arr[i];
+    }
+    
 
 }
