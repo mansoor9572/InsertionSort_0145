@@ -60,7 +60,14 @@ void disply(){
    cout<<arr[j]<<endl;
   }
   cout<<endl;
-  
 }
 
+int main(){
+
+  input();
+  insertionSort();
+  disply();
+  system("pause");
+  return 0;
 }
+
