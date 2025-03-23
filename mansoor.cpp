@@ -8,13 +8,13 @@ void input(){
       cout<<"masukkan jumlah data pada array">>;//membuat inputan jumlah elment array
       cin>>n;//memanggil variable inputan n
       if (n<=20)
-      {
+        {
         //membuat kondisi n tidak lebih dari 20
         break;
-      }
+        }
       else
       {
-        cout<<"\n narray yang anda masukan maksimal 20elmen.\n"; //menamilkan pesan jika data lebih dari 20 
+         cout<<"\n narray yang anda masukan maksimal 20elmen.\n"; //menamilkan pesan jika data lebih dari 20 
       }
       
       cout<<endl; //membuat jarka per baris program
@@ -22,13 +22,16 @@ void input(){
       cout<<"masukan elment array"<<endl;
       cout<<"======================="<<endl;
     
-    }
-    for (int  i = 0; i < n; i++)
-    {
+     }
+     for (int  i = 0; i < n; i++){
+
+      {
         cout<<"data ke_"<<(i+1)<<":";
-        cin>>arr[i];
+        cin>>arr[i];}
     }
-    void insertionSort(){
+  
+}  
+void insertionSort(){
         int temp;
         int j,i;
         for (i=1; i<=n-1; i++)
@@ -43,8 +46,21 @@ void input(){
        }
        arr[j+1= temp;]
         }
-        
-        
     }
+void disply(){
+  cout<<endl;
+  cout<<"============="<<endl;
+  cout<<"total passes ="<<n-1<<endl;
+  cout<<"=============="<<endl;
+  cout<<"element array yang telah tersusan"<<endl;
+  cout<<"==============="<<endl;
+
+  for (int j=0; j < n; j++)
+  {
+   cout<<arr[j]<<endl;
+  }
+  cout<<endl;
+  
+}
 
 }
